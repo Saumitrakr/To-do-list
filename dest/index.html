@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dest/style.css">
+</head>
+<body class="bg-black h-screen">
+    <div class="container w-1/4 h-1/2 bg-slate-600 m-auto p-6 rounded-md">
+        <h1 class="text-yellow-500 flex flex-row font-bold">To-Do List <img style="width: 30px;" src="/images/icon.png" alt="image_problem"></h1>
+        <div class="newtask flex mt-4">
+            <input class="taskName w-2/3 placeholder:italic placeholder:text-slate-400 block bg-white border border-slate-300 rounded-md p-2 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Add your task..." type="text" name="search"/>
+            <button class="addtask w-1/4 text-white rounded-2xl bg-orange-600 px-4 py-2">Add</button>
+        </div>
+        <ul class="tasklist pt-4">
+        </ul>
+    </div>
+    <script src="/dest/script.js"></script>
+</body>
+</html>
